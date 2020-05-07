@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\PRAJJU\AppData\Local\Temp\testng-eclipse-1300820886\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 1 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 8247438096, valid, sarada, valid, , all are valid)">method1(firefox, 8247438096, valid, sarada, valid, , all are valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 8247438096, valid, , blank, Enter password, password is blank)">method1(firefox, 8247438096, valid, , blank, Enter password, password is blank)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of...)">method1(chrome, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong passwor...)">method1(firefox, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong passwor...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 dig...)">method1(firefox, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 dig...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 8247438096, valid, , blank, Enter password, password is blank)">method1(chrome, 8247438096, valid, , blank, Enter password, password is blank)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile numb...)">method1(chrome, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile numb...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password)">method1(chrome, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 8247438096, valid, sarada, valid, all are valid, )">method1(chrome, 8247438096, valid, sarada, valid, all are valid, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  i...)">method1(firefox, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile num...)">method1(firefox, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile num...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit o...)">method1(firefox, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit o...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, , blank, hariom, valid, Enter your mobile number, mobile number is blank)">method1(chrome, , blank, hariom, valid, Enter your mobile number, mobile number is blank)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(firefox, , blank, hariom, valid, Enter your mobile number, mobile number is blank)">method1(firefox, , blank, hariom, valid, Enter your mobile number, mobile number is blank)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is...)">method1(chrome, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.runner.Runner" hash-for-method="method1(chrome, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digi...)">method1(chrome, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">my.runner.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 8247438096, valid, sarada, valid, , all are valid)">
+                  </a> <!-- method1(firefox, 8247438096, valid, sarada, valid, , all are valid) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 8247438096, valid, sarada, valid, , all are valid)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timeout loading page after 5000ms
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;PRAJJU-PC&apos;, ip: &apos;192.168.2.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200429185419, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7656, moz:profile: C:\Users\PRAJJU\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51873a02-afc7-4a59-8ace-5159db07fe4a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at pages.HomePage.loginCredentials(HomePage.java:65)
+	at my.runner.Runner.method1(Runner.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">my.runner.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 8247438096, valid, , blank, Enter password, password is blank)">
+                  </a> <!-- method1(firefox, 8247438096, valid, , blank, Enter password, password is blank) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 8247438096, valid, , blank, Enter password, password is blank)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of...)">
+                  </a> <!-- method1(chrome, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of mobile number is less than 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong passwor...)">
+                  </a> <!-- method1(firefox, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong passwor...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 dig...)">
+                  </a> <!-- method1(firefox, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 dig...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digits)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 8247438096, valid, , blank, Enter password, password is blank)">
+                  </a> <!-- method1(chrome, 8247438096, valid, , blank, Enter password, password is blank) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 8247438096, valid, , blank, Enter password, password is blank)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile numb...)">
+                  </a> <!-- method1(chrome, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile numb...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile number is not registered)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password)">
+                  </a> <!-- method1(chrome, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 8247438096, valid, sarada, valid, all are valid, )">
+                  </a> <!-- method1(chrome, 8247438096, valid, sarada, valid, all are valid, ) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 8247438096, valid, sarada, valid, all are valid, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  i...)">
+                  </a> <!-- method1(firefox, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  i...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is less than 10 digits)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile num...)">
+                  </a> <!-- method1(firefox, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile num...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile number is not registered)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit o...)">
+                  </a> <!-- method1(firefox, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit o...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of mobile number is less than 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, , blank, hariom, valid, Enter your mobile number, mobile number is blank)">
+                  </a> <!-- method1(chrome, , blank, hariom, valid, Enter your mobile number, mobile number is blank) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, , blank, hariom, valid, Enter your mobile number, mobile number is blank)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(firefox, , blank, hariom, valid, Enter your mobile number, mobile number is blank)">
+                  </a> <!-- method1(firefox, , blank, hariom, valid, Enter your mobile number, mobile number is blank) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(firefox, , blank, hariom, valid, Enter your mobile number, mobile number is blank)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is...)">
+                  </a> <!-- method1(chrome, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is less than 10 digits)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1(chrome, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digi...)">
+                  </a> <!-- method1(chrome, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digi...) -->
+                  <span class="method-name">method1</span>
+                  <span class="parameters">(chrome, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digits)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\PRAJJU\AppData\Local\Temp\testng-eclipse-1300820886\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;my.runner.Runner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'method1')
+data.setCell(0, 2, 'my.runner.Runner')
+data.setCell(0, 3, 82179);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'method1')
+data.setCell(1, 2, 'my.runner.Runner')
+data.setCell(1, 3, 81366);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'method1')
+data.setCell(2, 2, 'my.runner.Runner')
+data.setCell(2, 3, 33658);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'method1')
+data.setCell(3, 2, 'my.runner.Runner')
+data.setCell(3, 3, 31172);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'method1')
+data.setCell(4, 2, 'my.runner.Runner')
+data.setCell(4, 3, 29119);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'method1')
+data.setCell(5, 2, 'my.runner.Runner')
+data.setCell(5, 3, 28051);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'method1')
+data.setCell(6, 2, 'my.runner.Runner')
+data.setCell(6, 3, 27769);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'method1')
+data.setCell(7, 2, 'my.runner.Runner')
+data.setCell(7, 3, 27623);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'method1')
+data.setCell(8, 2, 'my.runner.Runner')
+data.setCell(8, 3, 27326);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'method1')
+data.setCell(9, 2, 'my.runner.Runner')
+data.setCell(9, 3, 19567);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'method1')
+data.setCell(10, 2, 'my.runner.Runner')
+data.setCell(10, 3, 18834);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'method1')
+data.setCell(11, 2, 'my.runner.Runner')
+data.setCell(11, 3, 18682);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'method1')
+data.setCell(12, 2, 'my.runner.Runner')
+data.setCell(12, 3, 18614);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'method1')
+data.setCell(13, 2, 'my.runner.Runner')
+data.setCell(13, 3, 18606);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'method1')
+data.setCell(14, 2, 'my.runner.Runner')
+data.setCell(14, 3, 18470);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'method1')
+data.setCell(15, 2, 'my.runner.Runner')
+data.setCell(15, 3, 17571);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">my.runner.Runner</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 8247438096, valid, sarada, valid, all are valid, )</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">82314 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">83537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, , blank, hariom, valid, Enter your mobile number, mobile number is blank)</span>
+                <span class="method-start">83538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">102223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 digi...)</span>
+                <span class="method-start">103066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">103066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">121686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit of...)</span>
+                <span class="method-start">122500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">122500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">141114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">142122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  is...)</span>
+                <span class="method-start">142124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">160598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile numb...)</span>
+                <span class="method-start">161622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">161622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">180460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">181257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 8247438096, valid, , blank, Enter password, password is blank)</span>
+                <span class="method-start">181258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">198833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">201119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(chrome, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong password)</span>
+                <span class="method-start">201120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">220691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">221713 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method1(firefox, 8247438096, valid, sarada, valid, , all are valid)</span>
+                <span class="method-start">221714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">305269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, , blank, hariom, valid, Enter your mobile number, mobile number is blank)</span>
+                <span class="method-start">315589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">315589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">349252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, 99865, invalid, hariom, valid, Enter valid mobile number, mobile number is less than 10 dig...)</span>
+                <span class="method-start">356360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">356360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">387532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, 5632147899, invalid, hariom, valid, Invalid Mobile Number, wrong series i.e initial digit o...)</span>
+                <span class="method-start">394827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">394827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">422155 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">427838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, 56321, invalid, hariom, valid, Enter valid mobile number, wrong series and mobile number  i...)</span>
+                <span class="method-start">427839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">455890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">462404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, 9876879874, invalid, hariom, valid, Your mobile number is not register with us., mobile num...)</span>
+                <span class="method-start">462405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">490031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">495571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, 8247438096, valid, , blank, Enter password, password is blank)</span>
+                <span class="method-start">495572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">523341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">method1(firefox, 8247438096, valid, hariom, invalid, Incorrect number or password! Try Again., wrong passwor...)</span>
+                <span class="method-start">529158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">method2</span>
+                <span class="method-start">529158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">method6</span>
+                <span class="method-start">558280 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

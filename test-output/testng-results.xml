@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="16" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="568748" started-at="2020-05-07T17:32:37Z" finished-at="2020-05-07T17:42:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="568748" started-at="2020-05-07T17:32:37Z" finished-at="2020-05-07T17:42:06Z">
+      <class name="my.runner.Runner">
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="127" started-at="2020-05-07T23:02:41Z" finished-at="2020-05-07T23:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="82179" started-at="2020-05-07T23:02:41Z" data-provider="ExcelData" finished-at="2020-05-07T23:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8247438096]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sarada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[all are valid]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="1222" started-at="2020-05-07T23:04:03Z" finished-at="2020-05-07T23:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:04:04Z" finished-at="2020-05-07T23:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="18682" started-at="2020-05-07T23:04:04Z" data-provider="ExcelData" finished-at="2020-05-07T23:04:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter your mobile number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mobile number is blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="843" started-at="2020-05-07T23:04:23Z" finished-at="2020-05-07T23:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:04:24Z" finished-at="2020-05-07T23:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="18614" started-at="2020-05-07T23:04:24Z" data-provider="ExcelData" finished-at="2020-05-07T23:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[99865]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mobile number is less than 10 digits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="814" started-at="2020-05-07T23:04:43Z" finished-at="2020-05-07T23:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:04:43Z" finished-at="2020-05-07T23:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="18606" started-at="2020-05-07T23:04:43Z" data-provider="ExcelData" finished-at="2020-05-07T23:05:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5632147899]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Invalid Mobile Number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[wrong series i.e initial digit of mobile number is less than 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="1007" started-at="2020-05-07T23:05:02Z" finished-at="2020-05-07T23:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="2" started-at="2020-05-07T23:05:03Z" finished-at="2020-05-07T23:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="18470" started-at="2020-05-07T23:05:03Z" data-provider="ExcelData" finished-at="2020-05-07T23:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[wrong series and mobile number  is less than 10 digits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="1024" started-at="2020-05-07T23:05:21Z" finished-at="2020-05-07T23:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:05:22Z" finished-at="2020-05-07T23:05:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="18834" started-at="2020-05-07T23:05:22Z" data-provider="ExcelData" finished-at="2020-05-07T23:05:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876879874]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your mobile number is not register with us.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mobile number is not registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="796" started-at="2020-05-07T23:05:41Z" finished-at="2020-05-07T23:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:05:42Z" finished-at="2020-05-07T23:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="17571" started-at="2020-05-07T23:05:42Z" data-provider="ExcelData" finished-at="2020-05-07T23:06:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8247438096]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter password]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[password is blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="2286" started-at="2020-05-07T23:06:00Z" finished-at="2020-05-07T23:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:06:02Z" finished-at="2020-05-07T23:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="19567" started-at="2020-05-07T23:06:02Z" data-provider="ExcelData" finished-at="2020-05-07T23:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8247438096]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Incorrect number or password! Try Again.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[wrong password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="1021" started-at="2020-05-07T23:06:22Z" finished-at="2020-05-07T23:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:06:23Z" finished-at="2020-05-07T23:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="FAIL" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="81366" started-at="2020-05-07T23:06:23Z" data-provider="ExcelData" finished-at="2020-05-07T23:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8247438096]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sarada]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[all are valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Timeout loading page after 5000ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRAJJU-PC', ip: '192.168.2.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200429185419, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7656, moz:profile: C:\Users\PRAJJU\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51873a02-afc7-4a59-8ace-5159db07fe4a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Timeout loading page after 5000ms
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PRAJJU-PC', ip: '192.168.2.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200429185419, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7656, moz:profile: C:\Users\PRAJJU\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51873a02-afc7-4a59-8ace-5159db07fe4a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at pages.HomePage.loginCredentials(HomePage.java:65)
+	at my.runner.Runner.method1(Runner.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="10320" started-at="2020-05-07T23:07:46Z" finished-at="2020-05-07T23:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:07:56Z" finished-at="2020-05-07T23:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="33658" started-at="2020-05-07T23:07:56Z" data-provider="ExcelData" finished-at="2020-05-07T23:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter your mobile number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mobile number is blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="7108" started-at="2020-05-07T23:08:30Z" finished-at="2020-05-07T23:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="31172" started-at="2020-05-07T23:08:37Z" data-provider="ExcelData" finished-at="2020-05-07T23:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[99865]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mobile number is less than 10 digits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:08:37Z" finished-at="2020-05-07T23:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="7295" started-at="2020-05-07T23:09:08Z" finished-at="2020-05-07T23:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:09:16Z" finished-at="2020-05-07T23:09:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="27326" started-at="2020-05-07T23:09:16Z" data-provider="ExcelData" finished-at="2020-05-07T23:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5632147899]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Invalid Mobile Number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[wrong series i.e initial digit of mobile number is less than 6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="5683" started-at="2020-05-07T23:09:43Z" finished-at="2020-05-07T23:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:09:49Z" finished-at="2020-05-07T23:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="28051" started-at="2020-05-07T23:09:49Z" data-provider="ExcelData" finished-at="2020-05-07T23:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56321]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter valid mobile number]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[wrong series and mobile number  is less than 10 digits]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="6514" started-at="2020-05-07T23:10:17Z" finished-at="2020-05-07T23:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:10:23Z" finished-at="2020-05-07T23:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="27623" started-at="2020-05-07T23:10:23Z" data-provider="ExcelData" finished-at="2020-05-07T23:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876879874]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your mobile number is not register with us.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mobile number is not registered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="5540" started-at="2020-05-07T23:10:51Z" finished-at="2020-05-07T23:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="1" started-at="2020-05-07T23:10:56Z" finished-at="2020-05-07T23:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="27769" started-at="2020-05-07T23:10:56Z" data-provider="ExcelData" finished-at="2020-05-07T23:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8247438096]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Enter password]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[password is blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="5817" started-at="2020-05-07T23:11:24Z" finished-at="2020-05-07T23:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:my.runner.Runner@3532ec19]" name="method2" is-config="true" duration-ms="0" started-at="2020-05-07T23:11:30Z" finished-at="2020-05-07T23:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.runner.Runner@3532ec19]" name="method1" duration-ms="29119" started-at="2020-05-07T23:11:30Z" data-provider="ExcelData" finished-at="2020-05-07T23:11:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8247438096]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hariom]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Incorrect number or password! Try Again.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[wrong password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method6()[pri:0, instance:my.runner.Runner@3532ec19]" name="method6" is-config="true" duration-ms="6637" started-at="2020-05-07T23:11:59Z" finished-at="2020-05-07T23:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- my.runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
